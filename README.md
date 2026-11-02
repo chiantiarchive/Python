@@ -1,4 +1,13 @@
 # python-drills
-| Status | Day | Improvements|
+
+**Answer only by Friday or Sundays**
+
+| Day | Status | Improvements|
 |---|---| --- |
-| Unfinished | Day01 | Null
+|   Day01   |  Unfinished    |   Meh    |
+|   Day02   |   Unfinished   |   Meh    |
+|   Day03   |      |       |
+|   Day04   |      |       |
+|   Day05   |      |       |
+|   Day06   |      |       |
+|   Day07   |      |       |
