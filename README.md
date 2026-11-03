@@ -2,12 +2,12 @@
 
 **Answer only by Friday or Sundays**
 
-| Day | Status | Improvements|
-|---|---| --- |
-|   Day01   |  Unfinished    |   Meh    |
-|   Day02   |   Unfinished   |   Meh    |
-|   Day03   |      |       |
-|   Day04   |      |       |
-|   Day05   |      |       |
-|   Day06   |      |       |
-|   Day07   |      |       |
+| Day | Status |
+|---|---|
+|Day01|Unfinished
+|Day02|Unfinished
+|Day03|||
+|Day04|||
+|Day05|||
+|Day06|||
+|Day07|||
