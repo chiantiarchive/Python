@@ -1,5 +1,3 @@
-
-
 # start with nothing collected
 # look at each character, one at a time
 # if it's a digit, keep it

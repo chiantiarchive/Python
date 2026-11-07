@@ -1,6 +1,3 @@
-
-
-
 name = input("Client name: ").strip().title()
 hours = float(input("Hours worked: "))
 rate = float(input("Hourly rate: "))

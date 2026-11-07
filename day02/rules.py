@@ -1,5 +1,3 @@
-
-
 def classify_overdue(days: int) -> str:
     if days <= 0:
         return "On time"

@@ -1,5 +1,3 @@
-
-
 orders = [
     {"customer": "chianti", "amount": 120.0},
     {"customer": "chivara", "amount": 80.5},

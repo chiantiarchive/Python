@@ -1,5 +1,3 @@
-
-
 raw_values = ["10", "abc", "7.5", ""]
 good, failed = [], []
 
