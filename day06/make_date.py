@@ -1,5 +1,8 @@
 import csv, random
 from datetime import date, timedelta
+from pathlib import Path
+
+csv_invoices = Path(__file__).parent / "invoice.csv"
 
 random.seed(1)
 today = date.today()
@@ -20,8 +23,7 @@ rows[4]["amount"] = "abc"
 rows[11]["due_date"] =  "31/02/2026"
 rows[19]["client"] = ""
 
-with open("invoices.csv", "w", newline="", encoding="utf-8") as f:
+with csv_invoices.open("w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
     writer.writeheader()
     writer.writerows(rows)
-
