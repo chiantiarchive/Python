@@ -3,7 +3,7 @@ from datetime import date
 
 
 @dataclass
-class Invoices:
+class Invoice:
     invoice_no: str
     client: str
     amount: float

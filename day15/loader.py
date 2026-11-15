@@ -2,7 +2,7 @@ import csv
 from datetime import date
 from pathlib import Path
 
-from models import Invoices
+from models import Invoice
 
 
 def parse_row(row):
@@ -21,7 +21,7 @@ def parse_row(row):
         raise ValueError(f"bad due date '{row["due_date"]}'")
 
     paid = row["paid"].strip().lower() == "yes"
-    return Invoices(row["invoice_no"], client, amount, due, paid)
+    return Invoice(row["invoice_no"], client, amount, due, paid)
 
 
 def load_invoices(path):
