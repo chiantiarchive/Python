@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Overdue invoice checker")
-    parser.add_argument("--input", default="invoices.csv",\
+    parser.add_argument("--input", default="invoices.csv",
                         help="path to the invoice CSV")
     parser.add_argument("--min-days", type=int, default=1,
                         help="only show invoices at least this many days late")
